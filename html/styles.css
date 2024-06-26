@@ -1,0 +1,123 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+   
+ }
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ p,
+ h2,
+ h1{
+    margin: 0px ;
+ }
+ .HeaderPrincipal {
+    background-color: rgb(238, 229, 149);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    padding:20px;
+
+}
+
+.Header2 {
+    display: flex;
+    gap: 2%;
+
+}
+.contingut {
+    padding: 20px;
+}
+
+.form-buscador {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buscador {
+    border: blue 1px solid ;
+    padding: 5px;
+    border-radius: 10px  0px 0px 10px ;
+    border-right: none;
+}
+.Button {
+    border: blue 1px solid ;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px ;
+    background-color: transparent;
+    border-left: none;
+
+}
+.input-button{
+    display: flex;
+    gap: 0px
+
+}
+.llista {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.recepta {
+    background-color:lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px 10px rgb(90, 86, 86);
+    transition: all 0.2s;
+}
+.recepta:hover{
+    background-color:rgba(62, 37, 37, 0.5);
+    border-radius: 30px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(222, 153, 84);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+
+
+}
+.title-footer{
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+.contingut-si {
+    display: flex;
+    gap: 20px;
+    
+
+
+} 
+ .contingut-principal {
+    border-left: 1px solid black;
+    padding: 20px ;
+} 
+    
+
+.aside-macarrons {
+    padding: 20px ;
+}
+.pas-pas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    background-color: rgb(196, 255, 235);
+   
+}
